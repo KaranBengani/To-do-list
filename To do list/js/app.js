@@ -86,7 +86,7 @@ document.addEventListener("keyup",function(event){
     if(event.defaultPrevented){
         return;   
     }
-    console.log(event.keyCode)
+    var key = event.keyCode
     if(key === 13)
     {
         const toDo =input.Value;
